@@ -1,0 +1,33 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&family=Yeseva+One&family=Gothic+A1:wght@400;500&display=swap');
+
+:root {
+  
+  // Fonts
+  --font-base-family-body: 'Gothic A1', sans-serif;
+  --font-base-family-header: 'Poppins', sans-serif;
+
+  // Font size // base: 16px
+  --font-base-size-xsmall: .8rem;
+  --font-base-size-small: 1rem;
+  --font-base-size-medium: 1.5rem;
+  --font-base-size-large: 2rem;
+  --font-base-size-xlarge: 2.8rem;
+
+  --base-line-height: 1.5;
+
+  // Breakpoints
+  --small-screen: 35.5rem; //568px
+  --medium-screen: 59.37rem; //950px
+  --large-screen: 64rem; //1024px
+
+  // Spacing
+  --base-spacing-xsmall: 1rem; // 16px
+  --base-spacing-small: 1.5rem; // 24px
+  --base-spacing-medium: 2rem;// 32px
+
+// grid
+--base-grid-gap-small:1rem; //16px
+--base-grid-gap-medium:1.5rem; //24px
+--base-grid-colums:repeat(auto-fit,15.6rem); //  250px
+
+}
