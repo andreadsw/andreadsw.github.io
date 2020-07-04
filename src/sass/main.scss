@@ -31,7 +31,7 @@ h3 {
 }
 
 h1 {
-  font-size: var(--font-base-size-xlarge);
+  font-size: var(--font-base-size-large);
   font-weight: 700;
   font-family: var(--font-base-family-header);
 }
@@ -229,6 +229,10 @@ ul.social-media li a {
 }
 
 @media only screen and (min-width: 580px) {
+  h1 {
+    font-size: var(--font-base-size-xlarge);
+  }
+
   .intro {
     padding: 8px 6.39%;
   }
