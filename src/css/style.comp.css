@@ -614,6 +614,9 @@ a:hover:before {
   margin: 5px 10px;
   background: var(--white-color); }
 
+.social-media-icons {
+  padding: 8px 3.39%; }
+
 .grid-gallery-react,
 .grid-gallery-js,
 .grid-gallery-css-images,
