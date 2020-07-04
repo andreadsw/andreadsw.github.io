@@ -109,7 +109,7 @@ a:hover:before {
 }
 
 .intro {
-  padding: 8px 6.39%;
+  padding: 8px 3.39%;
 }
 
 .intro-text {
@@ -161,8 +161,7 @@ a:hover:before {
 
 .projects,
 .social-media-icons {
-  margin: 10px 30px;
-  padding: 38px 6.39%;
+  margin: 5px 10px;
   background: var(--white-color);
 }
 
@@ -229,7 +228,11 @@ ul.social-media li a {
   color: var(--link-color);
 }
 
-@media only screen and (min-width: 980px) {
+@media only screen and (min-width: 580px) {
+  .intro {
+    padding: 8px 6.39%;
+  }
+
   .projects,
   .social-media-icons {
     margin: 20px 50px;
