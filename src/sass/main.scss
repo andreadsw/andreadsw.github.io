@@ -1,11 +1,10 @@
 // Base
-@import './partials/base/colours';
-@import './partials/base/variables';
-@import './partials/base/normalize';
-
+@import "./partials/base/colours";
+@import "./partials/base/variables";
+@import "./partials/base/normalize";
 
 // Components
-@import './partials/components/butterfly';
+@import "./partials/components/butterfly";
 
 body {
   font-family: var(--font-base-family-body);
@@ -34,7 +33,7 @@ h3 {
 h1 {
   font-size: var(--font-base-size-xlarge);
   font-weight: 700;
-  font-family: var(--font-base-family-header)
+  font-family: var(--font-base-family-header);
 }
 
 h2 {
@@ -162,8 +161,8 @@ a:hover:before {
 
 .projects,
 .social-media-icons {
-  margin: 20px 50px;
-  padding: 88px 6.39%;
+  margin: 10px 30px;
+  padding: 38px 6.39%;
   background: var(--white-color);
 }
 
@@ -179,7 +178,6 @@ a:hover:before {
 }
 
 @supports (display: grid) {
-
   .grid-gallery-react,
   .grid-gallery-js,
   .grid-gallery-css-images,
@@ -229,4 +227,13 @@ ul.social-media li a {
   font-size: var(--font-base-size-small);
   letter-spacing: 1px;
   color: var(--link-color);
+}
+
+@media only screen and (min-width: 980px) {
+  .projects,
+  .social-media-icons {
+    margin: 20px 50px;
+    padding: 88px 6.39%;
+    background: var(--white-color);
+  }
 }

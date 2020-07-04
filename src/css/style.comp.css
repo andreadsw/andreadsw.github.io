@@ -22,9 +22,9 @@
   --base-spacing-xsmall: 1rem;
   --base-spacing-small: 1.5rem;
   --base-spacing-medium: 2rem;
-  --base-grid-gap-small: 1rem;
-  --base-grid-gap-medium: 1.5rem;
-  --base-grid-colums: repeat(auto-fit, 15.6rem); }
+  --base-grid-gap-small:1rem;
+  --base-grid-gap-medium:1.5rem;
+  --base-grid-colums:repeat(auto-fit,15.6rem); }
 
 /*! normalize.css v8.0.1 | MIT License | github.com/necolas/normalize.css */
 /* Document
@@ -611,8 +611,8 @@ a:hover:before {
 
 .projects,
 .social-media-icons {
-  margin: 20px 50px;
-  padding: 88px 6.39%;
+  margin: 10px 30px;
+  padding: 38px 6.39%;
   background: var(--white-color); }
 
 .grid-gallery-react,
@@ -668,3 +668,10 @@ ul.social-media li a {
   font-size: var(--font-base-size-small);
   letter-spacing: 1px;
   color: var(--link-color); }
+
+@media only screen and (min-width: 980px) {
+  .projects,
+  .social-media-icons {
+    margin: 20px 50px;
+    padding: 88px 6.39%;
+    background: var(--white-color); } }
