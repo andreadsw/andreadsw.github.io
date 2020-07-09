@@ -67,6 +67,10 @@ a:hover:before {
   transition: 0.3s clip-path ease;
 }
 
+.content-container {
+  max-width: 1440px;
+}
+
 .name {
   padding: var(--base-spacing-medium);
   font-size: var(--font-base-size-medium);
